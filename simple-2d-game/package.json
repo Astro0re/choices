@@ -1,0 +1,27 @@
+{
+  "name": "simple-2d-game",
+  "version": "1.0.0",
+  "description": "A simple 2D game built with TypeScript and Vite.",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2" // Example game library dependency
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.6.4",
+    "vite-plugin-typescript": "^1.0.0"
+  },
+  "keywords": [
+    "2D",
+    "game",
+    "typescript",
+    "vite"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
