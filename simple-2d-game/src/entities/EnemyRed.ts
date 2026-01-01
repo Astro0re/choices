@@ -1,4 +1,4 @@
-class Enemy {
+class Enemy_red {
     // Position of the enemy on the canvas
     position: { x: number; y: number };
     
@@ -23,5 +23,5 @@ class Enemy {
         context.fillRect(this.position.x, this.position.y, 50, 50); // Draw a square as the enemy
     }
 }
+export default Enemy_red;
 
-export default Enemy;

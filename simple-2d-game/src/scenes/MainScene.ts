@@ -4,11 +4,11 @@
 
 import { Scene } from 'some-game-engine'; // Importing the base Scene class from the game engine
 import { Player } from '../entities/Player'; // Importing the Player class
-import { Enemy } from '../entities/Enemy'; // Importing the Enemy class
+import { Enemy_red } from '../entities/EnemyRed'; // Importing the Enemy class
 
 export class MainScene extends Scene {
     private player: Player; // Instance of the Player class
-    private enemies: Enemy[]; // Array to hold enemy instances
+    private enemies: Enemy_red[]; // Array to hold enemy instances
 
     constructor() {
         super(); // Call the constructor of the base Scene class
@@ -20,7 +20,7 @@ export class MainScene extends Scene {
     // Method to create enemies and add them to the enemies array
     private createEnemies(): void {
         for (let i = 0; i < 5; i++) { // Create 5 enemies
-            const enemy = new Enemy(); // Create a new enemy instance
+            const enemy = new Enemy_red(); // Create a new enemy instance
             this.enemies.push(enemy); // Add the enemy to the array
         }
     }
